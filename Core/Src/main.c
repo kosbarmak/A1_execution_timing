@@ -1,25 +1,30 @@
 #include "main.h"
+#include "stm32l4xx_hal.h"
 
 int main(void)
 {
 	HAL_Init();
 
 	// turns on clock to GPIO banks A and C
+	// this also powers GPIO so this line is required
+	// effectively turn on the heart
 	RCC->AHB2ENR |= (RCC_AHB2ENR_GPIOAEN | RCC_AHB2ENR_GPIOCEN);
 
-	// bank A as GPIO mode
-	GPIOA->MODER &= ~(GPIO_MODER_MODE5);
-	GPIOA->MODER |= (GPIO_MODER_MODE5_0);
-
-	// bank C as GPIO mode
-	GPIOC->MODER &= ~(GPIO_MODER_MODE13);
-	GPIOC->PUPDR &= ~(GPIO_PUPDR_PUPD13);
+	GPIOC->MODER &= ~(0b11 << (0 * 2));
+	GPIOC->MODER |= (0b01 << (0 * 2));
 
 	while (1) {
-		GPIOA->ODR &= ~GPIO_PIN_5; // set pin 5 of PORT A to 0
-		HAL_Delay(1000);
-		GPIOA->ODR |= GPIO_PIN_5; // set pin 5 of PORT A to 1
-		HAL_Delay(1000);
+		// set PC0 to high
+		// GPIOC->ODR |= GPIO_ODR_OD0;
+		GPIOC->ODR |= (1 << 0);
 
+		while(1);
+
+		break; 
+
+		HAL_Delay(1000);
+		// GPIOC->ODR &= ~GPIO_ODR_OD0;
+		GPIOC->ODR &= ~(1 << 0);
+		HAL_Delay(1000);
 	} // end while
 } // end main
