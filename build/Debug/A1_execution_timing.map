@@ -9,7 +9,7 @@ Archive member included to satisfy reference by file (symbol)
 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-memset.o)
                               /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-errno.o)
-                              CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj (__errno)
+                              CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj (__errno)
 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
                               /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-lock.o)
@@ -150,16 +150,12 @@ Discarded input sections
                 0x00000000        0xc cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_MspDeInit
                 0x00000000        0xc cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .text.HAL_GetTick
-                0x00000000       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_GetTickPrio
                 0x00000000       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_SetTickFreq
                 0x00000000       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_GetTickFreq
                 0x00000000       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .text.HAL_Delay
-                0x00000000       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_SuspendTick
                 0x00000000       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .text.HAL_ResumeTick
@@ -350,7 +346,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_line    0x00000000      0xfc9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_str     0x00000000    0xde9ed cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_str     0x00000000    0xde9bc cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_frame   0x00000000      0x21c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .ARM.attributes
@@ -476,7 +472,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .debug_line    0x00000000     0x14a6 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_str     0x00000000    0xdeb78 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_str     0x00000000    0xdeb47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .debug_frame   0x00000000      0x2fc cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .ARM.attributes
@@ -589,7 +585,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .debug_line    0x00000000      0x9f3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
- .debug_str     0x00000000    0xde653 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
+ .debug_str     0x00000000    0xde622 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x204 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj
  .ARM.attributes
@@ -703,7 +699,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .debug_line    0x00000000      0xc7f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
- .debug_str     0x00000000    0xde6c3 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000    0xde692 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x248 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -788,7 +784,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .debug_line    0x00000000      0x693 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x00000000    0xde2a5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x00000000    0xde274 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .debug_frame   0x00000000       0x50 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
@@ -953,7 +949,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .debug_line    0x00000000      0x664 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
- .debug_str     0x00000000    0xde190 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
+ .debug_str     0x00000000    0xde15f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
  .ARM.attributes
                 0x00000000       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj
@@ -1034,7 +1030,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .debug_line    0x00000000      0x667 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
- .debug_str     0x00000000    0xde193 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
+ .debug_str     0x00000000    0xde162 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
  .ARM.attributes
                 0x00000000       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj
@@ -1143,7 +1139,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .debug_line    0x00000000      0xc29 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
- .debug_str     0x00000000    0xde623 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
+ .debug_str     0x00000000    0xde5f2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .debug_frame   0x00000000      0x204 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj
  .ARM.attributes
@@ -1225,7 +1221,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
  .debug_line    0x00000000      0x667 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
- .debug_str     0x00000000    0xde193 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000    0xde162 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
  .ARM.attributes
                 0x00000000       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj
@@ -1340,7 +1336,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
  .debug_line    0x00000000      0x83f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
- .debug_str     0x00000000    0xde712 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
+ .debug_str     0x00000000    0xde6e1 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x230 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj
  .ARM.attributes
@@ -1506,7 +1502,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_line    0x00000000      0xc5a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_str     0x00000000    0xde902 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_str     0x00000000    0xde8d1 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_frame   0x00000000      0x584 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -1731,7 +1727,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x3ef cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .debug_line    0x00000000      0x9e4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
- .debug_str     0x00000000    0xde472 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
+ .debug_str     0x00000000    0xde441 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .debug_frame   0x00000000      0x174 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
  .ARM.attributes
@@ -1845,429 +1841,429 @@ Discarded input sections
  .debug_macro   0x00000000      0x330 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
  .debug_macro   0x00000000      0x1b5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
  .debug_line    0x00000000      0x7cf cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
- .debug_str     0x00000000    0xdf7ca cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
+ .debug_str     0x00000000    0xdf799 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
  .comment       0x00000000       0x47 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
  .debug_frame   0x00000000      0x150 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
  .ARM.attributes
                 0x00000000       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .text          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .data          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .bss           0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .text          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .data          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
  .rodata.CHANNEL_OFFSET_TAB
-                0x00000000        0x7 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0xaf0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x19b CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x2e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x28 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x1d0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0xfb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000     0x1011 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x11f CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000    0x1a192 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000     0x38fb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x190 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0x5c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000     0x159e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x5a5 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x1b9 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x18b CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x2c4 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x27a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x23d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x241 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x37c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0xd6 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x122 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x3ef CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000      0x330 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .text          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .data          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .bss           0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
+                0x00000000        0x7 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0xaf0 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x19b CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x1d0 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000    0x1a192 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000     0x38fb CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000     0x159e CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x5a5 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x1b9 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x18b CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x2c4 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x27a CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x23d CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x241 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x37c CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x122 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x3ef CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000      0x330 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .text          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .data          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
  .rodata.CHANNEL_OFFSET_TAB
-                0x00000000        0x7 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0xaf0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x19b CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x2e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x28 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x1d0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0xfb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000     0x1011 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x11f CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000    0x1a192 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000     0x38fb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x190 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x5c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000     0x159e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x5a5 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x1b9 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x18b CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x2c4 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x27a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x23d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x241 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x37c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0xd6 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x122 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x3ef CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x330 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000      0x1bb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x00000000       0x40 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .text          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .data          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .bss           0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x00000000        0x7 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0xaf0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x19b CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x1d0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000    0x1a192 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000     0x38fb CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000     0x159e CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x5a5 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x1b9 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x18b CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x2c4 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x27a CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x23d CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x241 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x37c CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x122 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x3ef CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x330 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000      0x1bb CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x00000000       0x40 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .text          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .data          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .rodata.CHANNEL_OFFSET_TAB
-                0x00000000        0x7 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0xaf0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x19b CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x2e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x28 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x1d0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0xfb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000     0x1011 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x11f CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000    0x1a192 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000     0x38fb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x190 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x5c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000     0x159e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x5a5 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x1b9 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x18b CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x2c4 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x27a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x23d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x241 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x37c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0xd6 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x122 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x3ef CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x330 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000      0x1bb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x40 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .text          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .data          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .bss           0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
+                0x00000000        0x7 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0xaf0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x19b CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x28 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x1d0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000     0x1011 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x11f CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000    0x1a192 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000     0x38fb CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000     0x159e CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x5a5 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x1b9 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x18b CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x2c4 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x27a CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x23d CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x241 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x37c CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x122 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x3ef CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x330 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000      0x1bb CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x40 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .text          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .data          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
  .bss.__sbrk_heap_end
-                0x00000000        0x4 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .text._sbrk    0x00000000       0x6c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00000000      0x168 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x00000000       0xbc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
+                0x00000000        0x4 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .text._sbrk    0x00000000       0x6c CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x00000000      0x168 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x00000000       0xbc CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
  .debug_aranges
-                0x00000000       0x20 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
+                0x00000000       0x20 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
  .debug_rnglists
-                0x00000000       0x13 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000      0xaf0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x75 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x2a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x94 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x190 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x73 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x364 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x4a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x58 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x1e5 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x23c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x1d0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_line    0x00000000      0x2e1 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_str     0x00000000     0x7231 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .comment       0x00000000       0x47 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .debug_frame   0x00000000       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
+                0x00000000       0x13 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000      0xaf0 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x75 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x73 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000      0x364 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000      0x23c CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x00000000      0x1d0 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x00000000      0x2e1 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00000000     0x7200 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .comment       0x00000000       0x47 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .debug_frame   0x00000000       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
  .ARM.attributes
-                0x00000000       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .group         0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .data          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .bss           0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .bss.__env     0x00000000        0x4 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .data.environ  0x00000000        0x4 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
+                0x00000000       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .group         0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .data          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .bss.__env     0x00000000        0x4 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .data.environ  0x00000000        0x4 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
  .text.initialise_monitor_handles
-                0x00000000        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._getpid  0x00000000        0xe CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._kill    0x00000000       0x20 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._exit    0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._read    0x00000000       0x3a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._write   0x00000000       0x38 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._close   0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._fstat   0x00000000       0x1e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._isatty  0x00000000       0x14 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._lseek   0x00000000       0x18 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._open    0x00000000       0x1a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._wait    0x00000000       0x1e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._unlink  0x00000000       0x1e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._times   0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._stat    0x00000000       0x1e CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._link    0x00000000       0x20 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._fork    0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text._execve  0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00000000      0x6b4 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x00000000      0x1bc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
+                0x00000000        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._getpid  0x00000000        0xe CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._kill    0x00000000       0x20 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._exit    0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._read    0x00000000       0x3a CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._write   0x00000000       0x38 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._close   0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._fstat   0x00000000       0x1e CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._isatty  0x00000000       0x14 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._lseek   0x00000000       0x18 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._open    0x00000000       0x1a CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._wait    0x00000000       0x1e CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._unlink  0x00000000       0x1e CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._times   0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._stat    0x00000000       0x1e CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._link    0x00000000       0x20 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._fork    0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text._execve  0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x00000000      0x6b4 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x00000000      0x1bc CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
  .debug_aranges
-                0x00000000       0xa8 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
+                0x00000000       0xa8 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
  .debug_rnglists
-                0x00000000       0x79 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x265 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0xaf0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x75 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x2a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x94 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x73 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x190 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x364 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x4a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x58 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x1e5 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x52 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x52 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0xcf CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x3d CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x3b CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x134 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x29 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x242 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x170 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x1d0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000      0x18a CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00000000       0xce CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00000000      0x605 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000     0x9537 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .comment       0x00000000       0x47 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .debug_frame   0x00000000      0x2ac CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
+                0x00000000       0x79 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x265 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0xaf0 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x75 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x73 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x190 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x364 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x4a CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x1e5 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0xcf CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x3d CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x3b CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x134 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x29 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x170 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x1d0 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000      0x18a CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00000000       0xce CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00000000      0x605 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00000000     0x9506 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .comment       0x00000000       0x47 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .debug_frame   0x00000000      0x2ac CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
-                0x00000000       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
- .text          0x00000000       0x14 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
- .data          0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
- .bss           0x00000000        0x0 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+                0x00000000       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+ .text          0x00000000       0x14 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
+ .data          0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
+ .bss           0x00000000        0x0 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-exit.o)
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-exit.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-exit.o)
@@ -2525,12 +2521,12 @@ LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_
 LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
 LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj
 LOAD cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj
-LOAD CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
-LOAD CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-LOAD CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-LOAD CMakeFiles/LED_cubemx_cmake.dir/Core/Src/sysmem.c.obj
-LOAD CMakeFiles/LED_cubemx_cmake.dir/Core/Src/syscalls.c.obj
-LOAD CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+LOAD CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+LOAD CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+LOAD CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+LOAD CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj
+LOAD CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj
+LOAD CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
 LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 START GROUP
 LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/libgcc.a
@@ -2550,11 +2546,11 @@ LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .isr_vector     0x08000000      0x188
                 0x08000000                        . = ALIGN (0x8)
  *(.isr_vector)
- .isr_vector    0x08000000      0x188 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+ .isr_vector    0x08000000      0x188 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x8)
 
-.text           0x08000188      0x548
+.text           0x08000188      0x640
                 0x08000188                        . = ALIGN (0x8)
  *(.text)
  *(.text*)
@@ -2578,235 +2574,241 @@ LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  .text.HAL_IncTick
                 0x080002ec       0x24 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
                 0x080002ec                HAL_IncTick
+ .text.HAL_GetTick
+                0x08000310       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000310                HAL_GetTick
+ .text.HAL_Delay
+                0x08000324       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000324                HAL_Delay
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x08000310       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08000310                HAL_GPIO_EXTI_IRQHandler
+                0x0800036c       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x0800036c                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_GPIO_EXTI_Callback
-                0x08000340       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08000340                HAL_GPIO_EXTI_Callback
+                0x0800039c       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x0800039c                HAL_GPIO_EXTI_Callback
  .text.__NVIC_SetPriorityGrouping
-                0x08000354       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080003b0       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x0800039c       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080003f8       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x080003b8       0x54 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08000414       0x54 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x0800040c       0x6e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- *fill*         0x0800047a        0x2 
+                0x08000468       0x6e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ *fill*         0x080004d6        0x2 
  .text.SysTick_Config
-                0x0800047c       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080004d8       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x080004c0       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x080004c0                HAL_NVIC_SetPriorityGrouping
+                0x0800051c       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x0800051c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x080004d6       0x38 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x080004d6                HAL_NVIC_SetPriority
+                0x08000532       0x38 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08000532                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x0800050e       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x0800050e                HAL_SYSTICK_Config
- *fill*         0x08000526        0x2 
- .text.main     0x08000528       0x44 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
-                0x08000528                main
+                0x0800056a       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x0800056a                HAL_SYSTICK_Config
+ *fill*         0x08000582        0x2 
+ .text.main     0x08000584       0xe0 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+                0x08000584                main
  .text.NMI_Handler
-                0x0800056c        0x8 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800056c                NMI_Handler
+                0x08000664        0x8 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000664                NMI_Handler
  .text.HardFault_Handler
-                0x08000574        0x8 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000574                HardFault_Handler
+                0x0800066c        0x8 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800066c                HardFault_Handler
  .text.MemManage_Handler
-                0x0800057c        0x8 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800057c                MemManage_Handler
+                0x08000674        0x8 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000674                MemManage_Handler
  .text.BusFault_Handler
-                0x08000584        0x8 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000584                BusFault_Handler
+                0x0800067c        0x8 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800067c                BusFault_Handler
  .text.UsageFault_Handler
-                0x0800058c        0x8 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800058c                UsageFault_Handler
+                0x08000684        0x8 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000684                UsageFault_Handler
  .text.SVC_Handler
-                0x08000594        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000594                SVC_Handler
+                0x0800068c        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800068c                SVC_Handler
  .text.DebugMon_Handler
-                0x080005a0        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080005a0                DebugMon_Handler
+                0x08000698        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000698                DebugMon_Handler
  .text.PendSV_Handler
-                0x080005ac        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080005ac                PendSV_Handler
+                0x080006a4        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006a4                PendSV_Handler
  .text.SysTick_Handler
-                0x080005b8        0xc CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080005b8                SysTick_Handler
+                0x080006b0        0xc CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006b0                SysTick_Handler
  .text.EXTI15_10_IRQHandler
-                0x080005c4       0x10 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080005c4                EXTI15_10_IRQHandler
+                0x080006bc       0x10 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080006bc                EXTI15_10_IRQHandler
  .text.HAL_MspInit
-                0x080005d4       0x44 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x080005d4                HAL_MspInit
+                0x080006cc       0x44 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x080006cc                HAL_MspInit
  .text.Reset_Handler
-                0x08000618       0x50 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
-                0x08000618                Reset_Handler
+                0x08000710       0x50 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
+                0x08000710                Reset_Handler
  .text.Default_Handler
-                0x08000668        0x2 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
-                0x08000668                TIM1_BRK_TIM15_IRQHandler
-                0x08000668                EXTI2_IRQHandler
-                0x08000668                TIM8_TRG_COM_IRQHandler
-                0x08000668                TIM8_CC_IRQHandler
-                0x08000668                TIM1_CC_IRQHandler
-                0x08000668                TSC_IRQHandler
-                0x08000668                TAMP_STAMP_IRQHandler
-                0x08000668                EXTI3_IRQHandler
-                0x08000668                LPTIM2_IRQHandler
-                0x08000668                DFSDM1_FLT1_IRQHandler
-                0x08000668                I2C3_ER_IRQHandler
-                0x08000668                DFSDM1_FLT2_IRQHandler
-                0x08000668                EXTI0_IRQHandler
-                0x08000668                I2C2_EV_IRQHandler
-                0x08000668                CAN1_RX0_IRQHandler
-                0x08000668                FPU_IRQHandler
-                0x08000668                TIM1_UP_TIM16_IRQHandler
-                0x08000668                ADC1_2_IRQHandler
-                0x08000668                SPI1_IRQHandler
-                0x08000668                TIM6_DAC_IRQHandler
-                0x08000668                TIM8_UP_IRQHandler
-                0x08000668                DMA2_Channel2_IRQHandler
-                0x08000668                DMA1_Channel4_IRQHandler
-                0x08000668                SAI2_IRQHandler
-                0x08000668                DFSDM1_FLT3_IRQHandler
-                0x08000668                USART3_IRQHandler
-                0x08000668                DMA1_Channel7_IRQHandler
-                0x08000668                CAN1_RX1_IRQHandler
-                0x08000668                LCD_IRQHandler
-                0x08000668                UART5_IRQHandler
-                0x08000668                ADC3_IRQHandler
-                0x08000668                TIM4_IRQHandler
-                0x08000668                DMA2_Channel1_IRQHandler
-                0x08000668                QUADSPI_IRQHandler
-                0x08000668                I2C1_EV_IRQHandler
-                0x08000668                DMA1_Channel6_IRQHandler
-                0x08000668                UART4_IRQHandler
-                0x08000668                DMA2_Channel4_IRQHandler
-                0x08000668                TIM3_IRQHandler
-                0x08000668                RCC_IRQHandler
-                0x08000668                DMA1_Channel1_IRQHandler
-                0x08000668                Default_Handler
-                0x08000668                DMA2_Channel7_IRQHandler
-                0x08000668                TIM7_IRQHandler
-                0x08000668                SDMMC1_IRQHandler
-                0x08000668                TIM5_IRQHandler
-                0x08000668                I2C3_EV_IRQHandler
-                0x08000668                EXTI9_5_IRQHandler
-                0x08000668                RTC_WKUP_IRQHandler
-                0x08000668                PVD_PVM_IRQHandler
-                0x08000668                SPI2_IRQHandler
-                0x08000668                CAN1_TX_IRQHandler
-                0x08000668                DMA2_Channel5_IRQHandler
-                0x08000668                DMA1_Channel5_IRQHandler
-                0x08000668                EXTI4_IRQHandler
-                0x08000668                RNG_IRQHandler
-                0x08000668                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08000668                DMA1_Channel3_IRQHandler
-                0x08000668                COMP_IRQHandler
-                0x08000668                WWDG_IRQHandler
-                0x08000668                LPUART1_IRQHandler
-                0x08000668                DMA2_Channel6_IRQHandler
-                0x08000668                TIM2_IRQHandler
-                0x08000668                EXTI1_IRQHandler
-                0x08000668                USART2_IRQHandler
-                0x08000668                DFSDM1_FLT0_IRQHandler
-                0x08000668                I2C2_ER_IRQHandler
-                0x08000668                DMA1_Channel2_IRQHandler
-                0x08000668                TIM8_BRK_IRQHandler
-                0x08000668                CAN1_SCE_IRQHandler
-                0x08000668                FLASH_IRQHandler
-                0x08000668                USART1_IRQHandler
-                0x08000668                OTG_FS_IRQHandler
-                0x08000668                SPI3_IRQHandler
-                0x08000668                I2C1_ER_IRQHandler
-                0x08000668                FMC_IRQHandler
-                0x08000668                SWPMI1_IRQHandler
-                0x08000668                LPTIM1_IRQHandler
-                0x08000668                SAI1_IRQHandler
-                0x08000668                DMA2_Channel3_IRQHandler
-                0x08000668                RTC_Alarm_IRQHandler
- *fill*         0x0800066a        0x2 
+                0x08000760        0x2 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
+                0x08000760                TIM1_BRK_TIM15_IRQHandler
+                0x08000760                EXTI2_IRQHandler
+                0x08000760                TIM8_TRG_COM_IRQHandler
+                0x08000760                TIM8_CC_IRQHandler
+                0x08000760                TIM1_CC_IRQHandler
+                0x08000760                TSC_IRQHandler
+                0x08000760                TAMP_STAMP_IRQHandler
+                0x08000760                EXTI3_IRQHandler
+                0x08000760                LPTIM2_IRQHandler
+                0x08000760                DFSDM1_FLT1_IRQHandler
+                0x08000760                I2C3_ER_IRQHandler
+                0x08000760                DFSDM1_FLT2_IRQHandler
+                0x08000760                EXTI0_IRQHandler
+                0x08000760                I2C2_EV_IRQHandler
+                0x08000760                CAN1_RX0_IRQHandler
+                0x08000760                FPU_IRQHandler
+                0x08000760                TIM1_UP_TIM16_IRQHandler
+                0x08000760                ADC1_2_IRQHandler
+                0x08000760                SPI1_IRQHandler
+                0x08000760                TIM6_DAC_IRQHandler
+                0x08000760                TIM8_UP_IRQHandler
+                0x08000760                DMA2_Channel2_IRQHandler
+                0x08000760                DMA1_Channel4_IRQHandler
+                0x08000760                SAI2_IRQHandler
+                0x08000760                DFSDM1_FLT3_IRQHandler
+                0x08000760                USART3_IRQHandler
+                0x08000760                DMA1_Channel7_IRQHandler
+                0x08000760                CAN1_RX1_IRQHandler
+                0x08000760                LCD_IRQHandler
+                0x08000760                UART5_IRQHandler
+                0x08000760                ADC3_IRQHandler
+                0x08000760                TIM4_IRQHandler
+                0x08000760                DMA2_Channel1_IRQHandler
+                0x08000760                QUADSPI_IRQHandler
+                0x08000760                I2C1_EV_IRQHandler
+                0x08000760                DMA1_Channel6_IRQHandler
+                0x08000760                UART4_IRQHandler
+                0x08000760                DMA2_Channel4_IRQHandler
+                0x08000760                TIM3_IRQHandler
+                0x08000760                RCC_IRQHandler
+                0x08000760                DMA1_Channel1_IRQHandler
+                0x08000760                Default_Handler
+                0x08000760                DMA2_Channel7_IRQHandler
+                0x08000760                TIM7_IRQHandler
+                0x08000760                SDMMC1_IRQHandler
+                0x08000760                TIM5_IRQHandler
+                0x08000760                I2C3_EV_IRQHandler
+                0x08000760                EXTI9_5_IRQHandler
+                0x08000760                RTC_WKUP_IRQHandler
+                0x08000760                PVD_PVM_IRQHandler
+                0x08000760                SPI2_IRQHandler
+                0x08000760                CAN1_TX_IRQHandler
+                0x08000760                DMA2_Channel5_IRQHandler
+                0x08000760                DMA1_Channel5_IRQHandler
+                0x08000760                EXTI4_IRQHandler
+                0x08000760                RNG_IRQHandler
+                0x08000760                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000760                DMA1_Channel3_IRQHandler
+                0x08000760                COMP_IRQHandler
+                0x08000760                WWDG_IRQHandler
+                0x08000760                LPUART1_IRQHandler
+                0x08000760                DMA2_Channel6_IRQHandler
+                0x08000760                TIM2_IRQHandler
+                0x08000760                EXTI1_IRQHandler
+                0x08000760                USART2_IRQHandler
+                0x08000760                DFSDM1_FLT0_IRQHandler
+                0x08000760                I2C2_ER_IRQHandler
+                0x08000760                DMA1_Channel2_IRQHandler
+                0x08000760                TIM8_BRK_IRQHandler
+                0x08000760                CAN1_SCE_IRQHandler
+                0x08000760                FLASH_IRQHandler
+                0x08000760                USART1_IRQHandler
+                0x08000760                OTG_FS_IRQHandler
+                0x08000760                SPI3_IRQHandler
+                0x08000760                I2C1_ER_IRQHandler
+                0x08000760                FMC_IRQHandler
+                0x08000760                SWPMI1_IRQHandler
+                0x08000760                LPTIM1_IRQHandler
+                0x08000760                SAI1_IRQHandler
+                0x08000760                DMA2_Channel3_IRQHandler
+                0x08000760                RTC_Alarm_IRQHandler
+ *fill*         0x08000762        0x2 
  .text.__libc_init_array
-                0x0800066c       0x48 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
-                0x0800066c                __libc_init_array
+                0x08000764       0x48 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
+                0x08000764                __libc_init_array
  *(.glue_7)
- .glue_7        0x080006b4        0x0 linker stubs
+ .glue_7        0x080007ac        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080006b4        0x0 linker stubs
+ .glue_7t       0x080007ac        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080006b4        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x080007ac        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x080006b4        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x080006b4                _init
- .init          0x080006b8        0x8 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x080007ac        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x080007ac                _init
+ .init          0x080007b0        0x8 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x080006c0        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x080006c0                _fini
- .fini          0x080006c4        0x8 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x080006d0                        . = ALIGN (0x8)
- *fill*         0x080006cc        0x4 
-                0x080006d0                        _etext = .
+ .fini          0x080007b8        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x080007b8                _fini
+ .fini          0x080007bc        0x8 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x080007c8                        . = ALIGN (0x8)
+ *fill*         0x080007c4        0x4 
+                0x080007c8                        _etext = .
 
-.vfp11_veneer   0x080006d0        0x0
- .vfp11_veneer  0x080006d0        0x0 linker stubs
+.vfp11_veneer   0x080007c8        0x0
+ .vfp11_veneer  0x080007c8        0x0 linker stubs
 
-.v4_bx          0x080006d0        0x0
- .v4_bx         0x080006d0        0x0 linker stubs
+.v4_bx          0x080007c8        0x0
+ .v4_bx         0x080007c8        0x0 linker stubs
 
-.iplt           0x080006d0        0x0
- .iplt          0x080006d0        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x080007c8        0x0
+ .iplt          0x080007c8        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x080006d0        0x0
-                0x080006d0                        . = ALIGN (0x8)
+.rodata         0x080007c8        0x0
+                0x080007c8                        . = ALIGN (0x8)
  *(.rodata)
  *(.rodata*)
-                0x080006d0                        . = ALIGN (0x8)
+                0x080007c8                        . = ALIGN (0x8)
 
-.ARM.extab      0x080006d0        0x0
-                0x080006d0                        . = ALIGN (0x8)
+.ARM.extab      0x080007c8        0x0
+                0x080007c8                        . = ALIGN (0x8)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080006d0                        . = ALIGN (0x8)
+                0x080007c8                        . = ALIGN (0x8)
 
-.ARM            0x080006d0        0x0
-                0x080006d0                        . = ALIGN (0x8)
-                0x080006d0                        __exidx_start = .
+.ARM            0x080007c8        0x0
+                0x080007c8                        . = ALIGN (0x8)
+                0x080007c8                        __exidx_start = .
  *(.ARM.exidx*)
-                0x080006d0                        __exidx_end = .
-                0x080006d0                        . = ALIGN (0x8)
+                0x080007c8                        __exidx_end = .
+                0x080007c8                        . = ALIGN (0x8)
 
-.preinit_array  0x080006d0        0x0
-                0x080006d0                        . = ALIGN (0x8)
-                0x080006d0                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080007c8        0x0
+                0x080007c8                        . = ALIGN (0x8)
+                0x080007c8                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080006d0                        PROVIDE (__preinit_array_end = .)
-                0x080006d0                        . = ALIGN (0x8)
+                0x080007c8                        PROVIDE (__preinit_array_end = .)
+                0x080007c8                        . = ALIGN (0x8)
 
-.init_array     0x080006d0        0x8
-                0x080006d0                        . = ALIGN (0x8)
-                0x080006d0                        PROVIDE (__init_array_start = .)
+.init_array     0x080007c8        0x8
+                0x080007c8                        . = ALIGN (0x8)
+                0x080007c8                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x080006d0        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080006d4                        PROVIDE (__init_array_end = .)
-                0x080006d8                        . = ALIGN (0x8)
- *fill*         0x080006d4        0x4 
+ .init_array    0x080007c8        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x080007cc                        PROVIDE (__init_array_end = .)
+                0x080007d0                        . = ALIGN (0x8)
+ *fill*         0x080007cc        0x4 
 
-.fini_array     0x080006d8        0x8
-                0x080006d8                        . = ALIGN (0x8)
+.fini_array     0x080007d0        0x8
+                0x080007d0                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080006d8        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x080007d0        0x4 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x080006e0                        . = ALIGN (0x8)
- *fill*         0x080006dc        0x4 
-                0x080006e0                        _sidata = LOADADDR (.data)
+                0x080007d8                        . = ALIGN (0x8)
+ *fill*         0x080007d4        0x4 
+                0x080007d8                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x080006e0        0x0
- .rel.iplt      0x080006e0        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x080007d8        0x0
+ .rel.iplt      0x080007d8        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000       0x10 load address 0x080006e0
+.data           0x20000000       0x10 load address 0x080007d8
                 0x20000000                        . = ALIGN (0x8)
                 0x20000000                        _sdata = .
  *(.data)
@@ -2826,16 +2828,16 @@ LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  *fill*         0x20000009        0x7 
 
 .tm_clone_table
-                0x20000010        0x0 load address 0x080006f0
+                0x20000010        0x0 load address 0x080007e8
  .tm_clone_table
                 0x20000010        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  .tm_clone_table
                 0x20000010        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtend.o
 
-.igot.plt       0x20000010        0x0 load address 0x080006f0
+.igot.plt       0x20000010        0x0 load address 0x080007e8
  .igot.plt      0x20000010        0x0 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.tdata          0x20000010        0x0 load address 0x080006f0
+.tdata          0x20000010        0x0 load address 0x080007e8
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20000010                        . = ALIGN (0x4)
                 0x20000010                        _edata = .
@@ -2852,7 +2854,7 @@ LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x20000010        0x0 load address 0x080006f0
+.tbss           0x20000010        0x0 load address 0x080007e8
                 0x20000010                        _sbss = .
                 0x20000010                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -2869,7 +2871,7 @@ LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x20000010       0x20 load address 0x080006f0
+.bss            0x20000010       0x20 load address 0x080007e8
  *(.bss)
  *(.bss*)
  .bss.completed.1
@@ -2888,7 +2890,7 @@ LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x20000030      0x600 load address 0x080006f0
+                0x20000030      0x600 load address 0x080007e8
                 0x20000030                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
                 0x20000030                        PROVIDE (_end = .)
@@ -2902,7 +2904,7 @@ LOAD /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
  libc.a:*(*)
  libm.a:*(*)
  libgcc.a:*(*)
-OUTPUT(LED_cubemx_cmake.elf elf32-littlearm)
+OUTPUT(A1_execution_timing.elf elf32-littlearm)
 LOAD linker stubs
 
 .ARM.attributes
@@ -2920,13 +2922,13 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000f2       0x34 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .ARM.attributes
-                0x00000126       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
+                0x00000126       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
  .ARM.attributes
-                0x0000015a       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0000015a       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
  .ARM.attributes
-                0x0000018e       0x34 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x0000018e       0x34 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .ARM.attributes
-                0x000001c2       0x21 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+                0x000001c2       0x21 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
  .ARM.attributes
                 0x000001e3       0x34 /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
  .ARM.attributes
@@ -2943,32 +2945,32 @@ LOAD linker stubs
                                  0x47 (size before relaxing)
  .comment       0x00000046        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
                                  0x47 (size before relaxing)
- .comment       0x00000046        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
+ .comment       0x00000046        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
                                  0x47 (size before relaxing)
- .comment       0x00000046        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
+ .comment       0x00000046        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
                                  0x47 (size before relaxing)
- .comment       0x00000046        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .comment       0x00000046        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
                                  0x47 (size before relaxing)
 
-.debug_info     0x00000000     0x2ff3
+.debug_info     0x00000000     0x3006
  .debug_info    0x00000000      0x5e2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_info    0x000005e2      0xc4d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_info    0x0000122f      0x79f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_info    0x000019ce      0xdad cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_info    0x0000277b      0x3b7 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_info    0x00002b32      0x190 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_info    0x00002cc2      0x301 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_info    0x00002fc3       0x30 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+ .debug_info    0x0000277b      0x3ca CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_info    0x00002b45      0x190 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_info    0x00002cd5      0x301 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_info    0x00002fd6       0x30 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
 
-.debug_abbrev   0x00000000      0xb12
+.debug_abbrev   0x00000000      0xb2e
  .debug_abbrev  0x00000000      0x117 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_abbrev  0x00000117      0x243 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_abbrev  0x0000035a      0x1d1 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_abbrev  0x0000052b      0x31c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_abbrev  0x00000847      0x100 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000947       0xca CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_abbrev  0x00000a11       0xdd CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_abbrev  0x00000aee       0x24 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+ .debug_abbrev  0x00000847      0x11c CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000963       0xca CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_abbrev  0x00000a2d       0xdd CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000b0a       0x24 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
 
 .debug_aranges  0x00000000      0x3a8
  .debug_aranges
@@ -2980,16 +2982,16 @@ LOAD linker stubs
  .debug_aranges
                 0x000001b0      0x128 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_aranges
-                0x000002d8       0x20 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
+                0x000002d8       0x20 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x000002f8       0x68 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
+                0x000002f8       0x68 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_aranges
-                0x00000360       0x20 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x00000360       0x20 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_aranges
-                0x00000380       0x28 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+                0x00000380       0x28 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
 
 .debug_rnglists
-                0x00000000      0x299
+                0x00000000      0x29a
  .debug_rnglists
                 0x00000000       0x1a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_rnglists
@@ -2999,15 +3001,15 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000138       0xd9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_rnglists
-                0x00000211       0x13 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
+                0x00000211       0x14 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x00000224       0x49 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
+                0x00000225       0x49 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_rnglists
-                0x0000026d       0x13 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x0000026e       0x13 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_rnglists
-                0x00000280       0x19 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+                0x00000281       0x19 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
 
-.debug_macro    0x00000000    0x24393
+.debug_macro    0x00000000    0x2439d
  .debug_macro   0x00000000      0x1a7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_macro   0x000001a7      0xaf0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_macro   0x00000c97       0x2e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
@@ -3045,38 +3047,38 @@ LOAD linker stubs
  .debug_macro   0x00023707      0x1f5 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_macro   0x000238fc      0x1ae cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_macro   0x00023aaa      0x1a7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_macro   0x00023c51      0x1bf CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00023e10      0x1bb CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x00023fcb       0x40 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_macro   0x0002400b      0x1c9 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_macro   0x000241d4      0x1bf CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_macro   0x00023c51      0x1c9 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00023e1a      0x1bb CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00023fd5       0x40 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_macro   0x00024015      0x1c9 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_macro   0x000241de      0x1bf CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
 
-.debug_line     0x00000000     0x3e6e
+.debug_line     0x00000000     0x3ebc
  .debug_line    0x00000000      0x70a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
  .debug_line    0x0000070a      0xa78 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_line    0x00001182      0xac8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_line    0x00001c4a      0xc21 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_line    0x0000286b      0x6f2 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_line    0x00002f5d      0x7af CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_line    0x0000370c      0x6e8 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_line    0x00003df4       0x7a CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+ .debug_line    0x0000286b      0x740 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_line    0x00002fab      0x7af CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_line    0x0000375a      0x6e8 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_line    0x00003e42       0x7a CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
 
-.debug_str      0x00000000    0xe00c7
- .debug_str     0x00000000    0xe00c7 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
-                              0xde3a7 (size before relaxing)
- .debug_str     0x000e00c7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                              0xdefbb (size before relaxing)
- .debug_str     0x000e00c7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                              0xde532 (size before relaxing)
- .debug_str     0x000e00c7        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                              0xdec20 (size before relaxing)
- .debug_str     0x000e00c7        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
-                              0xdeff9 (size before relaxing)
- .debug_str     0x000e00c7        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
-                              0xdef17 (size before relaxing)
- .debug_str     0x000e00c7        0x0 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                              0xdef9c (size before relaxing)
- .debug_str     0x000e00c7        0x0 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+.debug_str      0x00000000    0xe00b2
+ .debug_str     0x00000000    0xe00b2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32l4xx.c.obj
+                              0xde376 (size before relaxing)
+ .debug_str     0x000e00b2        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                              0xdef8a (size before relaxing)
+ .debug_str     0x000e00b2        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                              0xde501 (size before relaxing)
+ .debug_str     0x000e00b2        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                              0xdebef (size before relaxing)
+ .debug_str     0x000e00b2        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+                              0xdefee (size before relaxing)
+ .debug_str     0x000e00b2        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+                              0xdeee6 (size before relaxing)
+ .debug_str     0x000e00b2        0x0 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                              0xdef6b (size before relaxing)
+ .debug_str     0x000e00b2        0x0 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj
                                  0x9c (size before relaxing)
 
 .debug_frame    0x00000000      0xcd4
@@ -3084,12 +3086,12 @@ LOAD linker stubs
  .debug_frame   0x00000058      0x498 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_frame   0x000004f0      0x14c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_frame   0x0000063c      0x4e8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_frame   0x00000b24       0x2c CMakeFiles/LED_cubemx_cmake.dir/Core/Src/main.c.obj
- .debug_frame   0x00000b50      0x120 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_frame   0x00000c70       0x38 CMakeFiles/LED_cubemx_cmake.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_frame   0x00000b24       0x2c CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj
+ .debug_frame   0x00000b50      0x120 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_frame   0x00000c70       0x38 CMakeFiles/A1_execution_timing.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_frame   0x00000ca8       0x2c /Applications/ArmGNUToolchain/15.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(libc_a-init.o)
 
 .debug_line_str
                 0x00000000       0x80
  .debug_line_str
-                0x00000000       0x80 CMakeFiles/LED_cubemx_cmake.dir/startup_stm32l476xx.s.obj
+                0x00000000       0x80 CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj

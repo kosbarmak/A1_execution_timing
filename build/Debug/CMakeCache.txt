@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+A1_execution_timing_BINARY_DIR:STATIC=/Users/alan/Projects/STM32/A1_execution_timing/build/Debug
+
+//Value Computed by CMake
+A1_execution_timing_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+A1_execution_timing_SOURCE_DIR:STATIC=/Users/alan/Projects/STM32/A1_execution_timing
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/opt/homebrew/bin/arm-none-eabi-addr2line
 
@@ -159,7 +168,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=LED_cubemx_cmake
+CMAKE_PROJECT_NAME:STATIC=A1_execution_timing
 
 //Value Computed by CMake
 CMAKE_PROJECT_SPDX_LICENSE:STATIC=
@@ -223,7 +232,7 @@ CMAKE_STRIP:FILEPATH=/opt/homebrew/bin/arm-none-eabi-strip
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 
-//The CMake toolchain file
+//No help, variable specified on the command line.
 CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/alan/Projects/STM32/A1_execution_timing/cmake/gcc-arm-none-eabi.cmake
 
 //If this value is on, makefiles will be generated without the
@@ -231,15 +240,6 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/alan/Projects/STM32/A1_execution_timing/cma
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
-
-//Value Computed by CMake
-LED_cubemx_cmake_BINARY_DIR:STATIC=/Users/alan/Projects/STM32/A1_execution_timing/build/Debug
-
-//Value Computed by CMake
-LED_cubemx_cmake_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-LED_cubemx_cmake_SOURCE_DIR:STATIC=/Users/alan/Projects/STM32/A1_execution_timing
 
 
 ########################
