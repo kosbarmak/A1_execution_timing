@@ -3,12 +3,13 @@
 #include "stm32l4xx_hal.h"
 #include "stm32l4xx_hal_gpio.h"
 
+#include "stm32l4xx_it.h"
+#include <stdbool.h>
+
 #define GPIO_MODER_MODE_OUTPUT 0b01
 
-int main(void)
+void gpio_init()
 {
-	HAL_Init();
-
 	// turns on clock to GPIO banks A and C
 	// this also powers GPIO so this line is required
 	// effectively turn on the heart
@@ -31,25 +32,64 @@ int main(void)
 	// set PA4 as pulldown
 	GPIOA->PUPDR &= ~(GPIO_PUPDR_PUPD4_Msk);
 	GPIOA->PUPDR |= (GPIO_PULLDOWN << GPIO_PUPDR_PUPD4_Pos);
+}
+
+bool button_pressed()
+{
+	return GPIOA->IDR & GPIO_IDR_ID4;
+}
+
+void LED_on()
+{
+	GPIOC->ODR |= GPIO_ODR_OD0;
+	GPIOC->ODR |= GPIO_ODR_OD1;
+	GPIOC->ODR |= GPIO_ODR_OD2;
+}
+
+void LED_off()
+{
+	GPIOC->ODR &= ~GPIO_ODR_OD0;
+	GPIOC->ODR &= ~GPIO_ODR_OD1;
+	GPIOC->ODR &= ~GPIO_ODR_OD2;
+}
+
+int main(void)
+{
+	HAL_Init();
+	gpio_init();
+
+	const int button_delay = 25;
 
 	while (1) {
 		// set PC0 to high
 		// GPIOC->ODR |= GPIO_ODR_OD0;
 		// GPIOC->ODR |= (1 << 0);
 
-		if (GPIOA->IDR & GPIO_IDR_ID4) {
-			GPIOC->ODR |= GPIO_ODR_OD0;
-			GPIOC->ODR |= GPIO_ODR_OD1;
-			GPIOC->ODR |= GPIO_ODR_OD2;
+		if (button_pressed()) {
+			HAL_Delay(button_delay);
 
-			while (GPIOA->IDR & GPIO_IDR_ID4) {
-				HAL_Delay(100);
+			if (button_pressed()) {
+				LED_on();
+			}
+
+			while(button_pressed()) {
+				HAL_Delay(button_delay);
 			}
 		}
 
-		GPIOC->ODR &= ~GPIO_ODR_OD0;
-		GPIOC->ODR &= ~GPIO_ODR_OD1;
-		GPIOC->ODR &= ~GPIO_ODR_OD2;
+		LED_off();
 
+		// // button is still not pressed
+		// while (!(GPIOA->IDR & GPIO_IDR_ID4))
+		// 	HAL_Delay(button_delay);
+		//
+		//
+		// HAL_Delay(button_delay);
+		//
+		// while (GPIOA->IDR & GPIO_IDR_ID4) {
+		// 	HAL_Delay(button_delay);
+		// }
+		//
+		//
 	} // end while
 } // end main
