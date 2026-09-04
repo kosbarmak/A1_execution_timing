@@ -24,7 +24,7 @@ int main(void)
 	GPIOC->MODER &= ~(GPIO_MODER_MODE2_Msk);
 	GPIOC->MODER |= (0b01 << GPIO_MODER_MODE2_Pos);
 
-	// set button as input
+	// set PA4 as button as input
 	GPIOA->MODER &= ~(GPIO_MODER_MODE4_Msk);
 	GPIOA->MODER |= (GPIO_MODE_INPUT << GPIO_MODER_MODE4_Pos);
 
@@ -39,14 +39,13 @@ int main(void)
 			GPIOC->ODR |= GPIO_ODR_OD2;
 
 		}
-
 		else {
 			GPIOC->ODR &= ~GPIO_ODR_OD0;
 			GPIOC->ODR &= ~GPIO_ODR_OD1;
 			GPIOC->ODR &= ~GPIO_ODR_OD2;
 		}
-		HAL_Delay(100);
 
+		HAL_Delay(3000);
 
 	} // end while
 } // end main
