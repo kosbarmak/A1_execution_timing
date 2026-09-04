@@ -28,6 +28,10 @@ int main(void)
 	GPIOA->MODER &= ~(GPIO_MODER_MODE4_Msk);
 	GPIOA->MODER |= (GPIO_MODE_INPUT << GPIO_MODER_MODE4_Pos);
 
+	// set PA4 as pulldown
+	GPIOA->PUPDR &= ~(GPIO_PUPDR_PUPD4_Msk);
+	GPIOA->PUPDR |= (GPIO_PULLDOWN << GPIO_PUPDR_PUPD4_Pos);
+
 	while (1) {
 		// set PC0 to high
 		// GPIOC->ODR |= GPIO_ODR_OD0;
@@ -38,14 +42,14 @@ int main(void)
 			GPIOC->ODR |= GPIO_ODR_OD1;
 			GPIOC->ODR |= GPIO_ODR_OD2;
 
-		}
-		else {
-			GPIOC->ODR &= ~GPIO_ODR_OD0;
-			GPIOC->ODR &= ~GPIO_ODR_OD1;
-			GPIOC->ODR &= ~GPIO_ODR_OD2;
+			while (GPIOA->IDR & GPIO_IDR_ID4) {
+				HAL_Delay(100);
+			}
 		}
 
-		HAL_Delay(3000);
+		GPIOC->ODR &= ~GPIO_ODR_OD0;
+		GPIOC->ODR &= ~GPIO_ODR_OD1;
+		GPIOC->ODR &= ~GPIO_ODR_OD2;
 
 	} // end while
 } // end main
