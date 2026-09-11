@@ -101,24 +101,10 @@ int main(void)
 	HAL_Init();
 	gpio_init();
 
-	bool LED_is_on = false;
-	uint8_t count = 0;
-
-	/* Flags and logic live in main
-	 * */
+	GPIOA->MODER &= ~GPIO_MODER_MODE5_Msk;
+	GPIOA->MODER |= 0b01 << GPIO_MODER_MODE5_Pos;
 	while (1) {
-		if (button_is_pressed()) {
-			count_display(count);
-			LED_is_on = true;
-			count = (count + 1) % 8;
-		}
-		
-		/* Although this is not necessary (we can just repeatedly turn off LED when not needed), we
-		 * wanted to see if that is avoidable with boolean flags. This also makes the program more 
-		 * closely mimic an actual state machine. 
-		 * */
-		else if (LED_is_on) {
-			LED_turn_off();
-		}
+		GPIOA->ODR ^= 1;
+		HAL_Delay(1000);
 	}
 }
