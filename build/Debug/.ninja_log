@@ -87,3 +87,5 @@
 787	861	1789087497382128071	A1_execution_timing.elf	bf41daa72a454c2a
 1	189	1789087565774431283	CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj	c03ef294d82e6ca9
 189	260	1789087565962566206	A1_execution_timing.elf	bf41daa72a454c2a
+2	262	1789088775318876588	CMakeFiles/A1_execution_timing.dir/Core/Src/main.c.obj	c03ef294d82e6ca9
+262	376	1789088775579218914	A1_execution_timing.elf	bf41daa72a454c2a

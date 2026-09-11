@@ -101,10 +101,10 @@ int main(void)
 	HAL_Init();
 	gpio_init();
 
-	GPIOA->MODER &= ~GPIO_MODER_MODE5_Msk;
+	GPIOA->MODER &= GPIO_MODER_MODE5_Msk;
 	GPIOA->MODER |= 0b01 << GPIO_MODER_MODE5_Pos;
 	while (1) {
-		GPIOA->ODR ^= 1;
+		GPIOA->ODR ^= (0b1 << GPIO_ODR_OD5_Pos);
 		HAL_Delay(1000);
 	}
 }
