@@ -104,13 +104,6 @@ int main(void)
 	bool LED_is_on = false;
 	uint8_t count = 0;
 
-	GPIOA->MODER &= GPIO_MODER_MODE5_Msk;
-	GPIOA->MODER |= 0b01 << GPIO_MODER_MODE5_Pos;
-	while (1) {
-		GPIOA->ODR ^= 1;
-		HAL_Delay(1000);
-	}
-
 	/* Flags and logic live in main
 	 * */
 	while (1) {
