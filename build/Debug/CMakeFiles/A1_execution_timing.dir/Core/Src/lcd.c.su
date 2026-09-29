@@ -1,0 +1,16 @@
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:10:6:DB_set	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:17:6:RS_set	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:24:6:E_set	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:30:6:bus_write	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:44:6:instruction_send	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:49:6:data_send	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:54:9:instruction_mask_create	24	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:67:6:LCD_clear	8	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:72:6:entry_mode_set	56	dynamic
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:85:6:display_on_off	56	dynamic
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:99:6:function_set	56	dynamic
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:113:6:ddram_address_set	24	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:119:6:line_set	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:127:6:LCD_write_char	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:132:6:LCD_print	24	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/lcd.c:152:6:LCD_init	24	static

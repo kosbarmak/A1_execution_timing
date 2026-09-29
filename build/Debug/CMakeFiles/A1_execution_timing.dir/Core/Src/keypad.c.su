@@ -1,0 +1,7 @@
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/keypad.c:15:6:row_is_high	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/keypad.c:20:6:col_set	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/keypad.c:27:6:cols_set_low	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/keypad.c:34:6:col_isolate	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/keypad.c:40:6:key_is_pressed	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/keypad.c:46:5:get_key_value	16	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/keypad.c:65:5:get_pressed_key	16	static

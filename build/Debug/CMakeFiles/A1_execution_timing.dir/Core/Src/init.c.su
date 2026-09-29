@@ -1,0 +1,5 @@
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/init.c:15:6:gpio_init	8	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/init.c:25:6:bus_init	4	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/init.c:32:6:lcd_gpio_init	4	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/init.c:48:6:keypad_gpio_init	4	static
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/init.c:66:6:led_gpio_init	4	static

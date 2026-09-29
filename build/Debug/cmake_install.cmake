@@ -39,7 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/cmake/stm32cubemx/cmake_install.cmake")
+  include("/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/Platform/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/Drivers/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/Core/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

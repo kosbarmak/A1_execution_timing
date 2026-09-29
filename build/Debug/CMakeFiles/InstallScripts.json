@@ -2,7 +2,11 @@
 	"InstallScripts" : 
 	[
 		"/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/cmake_install.cmake",
-		"/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+		"/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/Platform/cmake_install.cmake",
+		"/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/Platform/src/cmake_install.cmake",
+		"/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/Drivers/cmake_install.cmake",
+		"/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/Core/cmake_install.cmake",
+		"/Users/alan/Projects/STM32/A1_execution_timing/build/Debug/Core/Src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

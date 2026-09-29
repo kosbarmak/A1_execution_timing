@@ -1,4 +1,5 @@
 # ninja log v7
+<<<<<<< Updated upstream
 2	130	1788477708480347997	CMakeFiles/A1_execution_timing.dir/startup_stm32l476xx.s.obj	dbe53c6da5c3ffcc
 2	158	1788477708479868334	CMakeFiles/A1_execution_timing.dir/Core/Src/sysmem.c.obj	33b90e9aab97a884
 2	174	1788477708480021958	CMakeFiles/A1_execution_timing.dir/Core/Src/syscalls.c.obj	70703452da980714
@@ -50,3 +51,31 @@
 526	854	1789084068338067855	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj	ac9a5f8a64c2c749
 503	856	1789084068315225134	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj	ad29112fea36c24c
 856	965	1789084068668345842	A1_execution_timing.elf	bf41daa72a454c2a
+=======
+1	140	1790720715701742703	CMakeFiles/A1_execution_timing.dir/Platform/src/startup_stm32l476xx.s.obj	67152b8d8f8e0fd2
+3	163	1790720715703078317	CMakeFiles/A1_execution_timing.dir/Platform/src/sysmem.c.obj	1cfd9bcdc59c1169
+3	185	1790720715702864402	CMakeFiles/A1_execution_timing.dir/Platform/src/syscalls.c.obj	935f813e504bd4bc
+2	441	1790720715702414697	CMakeFiles/A1_execution_timing.dir/Platform/src/stm32l4xx_it.c.obj	168c4a6571172d18
+2	458	1790720715702633654	CMakeFiles/A1_execution_timing.dir/Platform/src/system_stm32l4xx.c.obj	36f13c585d505c4b
+8	460	1790720715708480482	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj	a3a6e30abcef0c2
+9	470	1790720715708886312	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj	3b33270e3a0cc98
+2	471	1790720715702180699	CMakeFiles/A1_execution_timing.dir/Platform/src/stm32l4xx_hal_msp.c.obj	c1a02102da4705e2
+3	477	1790720715703591229	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj	d90af9230e85d3c8
+4	486	1790720715704367265	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c.obj	d2d6b6d1c9a05024
+3	487	1790720715703246940	CMakeFiles/A1_execution_timing.dir/Drivers/BSP/STM32L4xx_Nucleo/stm32l4xx_nucleo.c.obj	f0cf0371359940ba
+4	529	1790720715703986851	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c.obj	814cce5b6cc3dee9
+140	583	1790720715840093254	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj	a261e751f738409f
+185	617	1790720715885327473	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c.obj	d75695dafcb9cfc3
+163	668	1790720715863397691	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj	76dedf25321db975
+529	802	1790720716229313950	CMakeFiles/A1_execution_timing.dir/Core/Src/keypad.c.obj	710c27f7c266ec81
+617	858	1790720716317197367	CMakeFiles/A1_execution_timing.dir/Core/Src/led.c.obj	15e54a26b0fe3962
+458	870	1790720716158737894	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj	7e08f2be6aa9ade9
+486	876	1790720716186428504	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c.obj	dc61d4d744f33cba
+470	877	1790720716170336884	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj	ce210e71a47ffdd6
+488	878	1790720716187879326	CMakeFiles/A1_execution_timing.dir/Core/Src/init.c.obj	94161cab251558d2
+460	900	1790720716159934260	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj	67a46817b570001a
+477	902	1790720716176979372	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj	4ec365aded92cda8
+441	917	1790720716141583991	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c.obj	2e5ec864c4a17220
+471	936	1790720716171336126	CMakeFiles/A1_execution_timing.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj	5a842641c13fcf21
+583	938	1790720716283066100	CMakeFiles/A1_execution_timing.dir/Core/Src/lcd.c.obj	5cdece83fed1badb
+>>>>>>> Stashed changes

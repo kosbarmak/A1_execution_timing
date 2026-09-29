@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 #include "main.h"
 #include "stm32l476xx.h"
 #include "stm32l4xx_hal.h"
@@ -123,3 +124,13 @@ int main(void)
 		}
 	}
 }
+=======
+#include "stm32l476xx.h"
+#include "stm32l4xx_hal.h"
+
+int main()
+{
+	while (1)
+		;
+}
+>>>>>>> Stashed changes
