@@ -1,11 +1,1 @@
-<<<<<<< Updated upstream
-/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:22:6:gpio_init	4	static
-/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:48:6:PCA_is_high	4	static
-/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:53:6:button_delay	8	static
-/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:66:6:button_is_pressed	8	static
-/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:78:6:LED_turn_on	4	static
-/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:85:6:LED_turn_off	4	static
-/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:92:6:count_display	16	static
-/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:99:5:main	16	static
-=======
->>>>>>> Stashed changes
+/Users/alan/Projects/STM32/A1_execution_timing/Core/Src/main.c:4:5:main	4	static
